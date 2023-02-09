@@ -3,9 +3,9 @@ def main():
     # Comlete your code here
     ##################################################
 
-    Cel = int(input('Please enter a temperature in Celsius.'))
-    Fahr = (9 / 5) * Cel + 32
-    print(f'The temperature in Fahrenheit is: {Fahr:.2f}')
+    cel = int(input('Please enter a temperature in Celsius.'))
+    fahr = float((9 / 5) * cel + 32)
+    print(f'The temperature in Fahrenheit is: {fahr:.2f}')
 
     pass
 
